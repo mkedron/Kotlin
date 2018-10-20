@@ -14,4 +14,12 @@ fun main(args: Array<String>) {
     println(joinToString(list,prefix = "<<",postfix = ">>"))
 
     println("Dzien dobry".lastChar())
+
+    var button = Button()
+    var view = View()
+
+    println(button.click())
+    println(view.click())
+    println(button.showOff())
+    println(view.showOff())
 }
